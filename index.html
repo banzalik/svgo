@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>SVGO by deepsweet</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="SVGO : Nodejs-based tool for optimizing SVG vector graphics files." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>SVGO</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
 
-        <header>
-          <h1>SVGO</h1>
-          <h2>Nodejs-based tool for optimizing SVG vector graphics files.</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/deepsweet/svgo">View on GitHub</a>
+
+          <h1 id="project_title">SVGO</h1>
+          <h2 id="project_tagline">Nodejs-based tool for optimizing SVG vector graphics files.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/deepsweet/svgo/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/deepsweet/svgo/tarball/master">Download this project as a tar.gz file</a>
+            </section>
         </header>
+    </div>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/deepsweet/svgo/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/deepsweet/svgo/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/deepsweet/svgo" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <pre><code>o-o o   o o--o o-o
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <pre><code>o-o o   o o--o o-o
  \   \ /  |  | | |
 o-o   o   o--o o-o
              | 
@@ -53,21 +53,21 @@ o-o   o   o--o o-o
 <p>Today we have:</p>
 
 <ul>
-<li>[ <a href="svgo/tree/master/plugins/cleanupAttrs.js">&gt;</a> ] cleanup attributes from newlines, trailing and repeating spaces</li>
-<li>[ <a href="svgo/tree/master/plugins/removeDoctype.js">&gt;</a> ] remove doctype declaration</li>
-<li>[ <a href="svgo/tree/master/plugins/removeXMLProcInst.js">&gt;</a> ] remove XML processing instructions</li>
-<li>[ <a href="svgo/tree/master/plugins/removeComments.js">&gt;</a> ] remove comments</li>
-<li>[ <a href="svgo/tree/master/plugins/removeMetadata.js">&gt;</a> ] remove metadata</li>
-<li>[ <a href="svgo/tree/master/plugins/removeEditorsNSData.js">&gt;</a> ] remove editors namespaces, elements and attributes</li>
-<li>[ <a href="svgo/tree/master/plugins/removeEmptyAttrs.js">&gt;</a> ] remove empty attributes</li>
-<li>[ <a href="svgo/tree/master/plugins/removeDefaultPx.js">&gt;</a> ] remove default "px" unit</li>
-<li>[ <a href="svgo/tree/master/plugins/removeHiddenElems.js">&gt;</a> ] remove a lot of hidden elements</li>
-<li>[ <a href="svgo/tree/master/plugins/removeEmptyText.js">&gt;</a> ] remove empty Text elements</li>
-<li>[ <a href="svgo/tree/master/plugins/removeEmptyContainers.js">&gt;</a> ] remove empty Container elements</li>
-<li>[ <a href="svgo/tree/master/plugins/convertStyleToAttrs.js">&gt;</a> ] convert styles into attributes</li>
-<li>[ <a href="svgo/tree/master/plugins/convertColors.js">&gt;</a> ] convert colors</li>
-<li>[ <a href="svgo/tree/master/plugins/moveElemsAttrsToGroup.js">&gt;</a> ] move elements attributes to the existing group wrapper</li>
-<li>[ <a href="svgo/tree/master/plugins/collapseGroups.js">&gt;</a> ] collapse groups</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/cleanupAttrs.js">&gt;</a> ] cleanup attributes from newlines, trailing and repeating spaces</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeDoctype.js">&gt;</a> ] remove doctype declaration</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeXMLProcInst.js">&gt;</a> ] remove XML processing instructions</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeComments.js">&gt;</a> ] remove comments</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeMetadata.js">&gt;</a> ] remove metadata</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeEditorsNSData.js">&gt;</a> ] remove editors namespaces, elements and attributes</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeEmptyAttrs.js">&gt;</a> ] remove empty attributes</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeDefaultPx.js">&gt;</a> ] remove default "px" unit</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeHiddenElems.js">&gt;</a> ] remove a lot of hidden elements</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeEmptyText.js">&gt;</a> ] remove empty Text elements</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/removeEmptyContainers.js">&gt;</a> ] remove empty Container elements</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/convertStyleToAttrs.js">&gt;</a> ] convert styles into attributes</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/convertColors.js">&gt;</a> ] convert colors</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/moveElemsAttrsToGroup.js">&gt;</a> ] move elements attributes to the existing group wrapper</li>
+<li>[ <a href="//github.com/deepsweet/svgo/blob/master/plugins/collapseGroups.js">&gt;</a> ] collapse groups</li>
 </ul><p>But it's not only about rude removing, SVG has a strict <a href="http://www.w3.org/TR/SVG/expanded-toc.html">specification</a> with a lot of opportunities for optimizations, default values, geometry hacking and more.</p>
 
 <p>How-to instructions and plugins API docs will coming ASAP.</p>
@@ -85,11 +85,16 @@ Options:
   -h, --help : Help
   -v, --version : Version
   -c CONFIG, --config=CONFIG : Local config
+  -d DISABLE, --disable=DISABLE : Disable plugin
+  -e ENABLE, --enable=ENABLE : Enable plugin
   -i INPUT, --input=INPUT : Input file (default: stdin)
   -o OUTPUT, --output=OUTPUT : Output file (default: stdout)
 </code></pre>
 
-<pre><code>svgo -i myTestFile.svg -o myTestFile.min.svg
+<pre><code>svgo -i test.svg -o test.min.svg
+</code></pre>
+
+<pre><code>cat test.svg | svgo -d removeDoctype -d removeComment &gt; test.min.svg
 </code></pre>
 
 <h2>TODO</h2>
@@ -103,15 +108,18 @@ Options:
 <li>more plugins</li>
 <li>…</li>
 </ol>
-        </section>
-
-        <footer>
-          SVGO is maintained by <a href="https://github.com/deepsweet">deepsweet</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
+      </section>
     </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">SVGO maintained by <a href="https://github.com/deepsweet">deepsweet</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
